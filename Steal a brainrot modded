@@ -65,7 +65,7 @@ local GetKeyCorner = Instance.new("UICorner", GetKey)
 GetKeyCorner.CornerRadius = UDim.new(0, 8)
 
 -- Key Check
-local correctKey = "CRAZYMODDED"
+local correctKey = "CRAZYMOD"
 
 Submit.MouseButton1Click:Connect(function()
     if KeyBox.Text == correctKey then
